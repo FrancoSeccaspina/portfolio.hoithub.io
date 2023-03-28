@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <div class="contenedor-header">
+
+        <header>
+
+            <div class="logo">
+
+                <a href="#">Soy Franco !</a>
+                
+            </div>
+            
+            <nav id="nav">
+
+                <ul>
+
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    
+                </ul>
+                
+            </nav>
+                
+            <div class="nav-responsive"  onclick="mostrarOcultarMenu()">
+
+                <i class="fa-solid fa-bars"></i>
+                
+            </div>
+
+        </header>
+
+    </div>
+          
+    <section class="inicio" id="inicio">
+
+        <div class="contenido-banner">
+
+            <div class="contenedor-img">
+
+                <img src="./images/Foto Currículum.jpg" alt="">
+                
+            </div>
+            
+            <h1>Franco Seccaspina</h1>
+        
+            <h2>Programador FullStack Junior</h2>
+            
+            <div class="redes">
+
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+
+                <a href="#"><i class="fa-solid fa-mobile"></i></a>
+
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                
+            </div>
+                
+        </div>
+        
+    </section>
+
+    <section class="sobremi" id="sobremi">
+
+        <div class="contenido-seccion">
+
+            <h2>Sobre Mi</h2>
+            
+            <p><span>Hola, soy Franco Seccaspina.</span> He realizado varios cursos de programación , el ultimo que realice fue en Digital House, el cual me recibì de Programador FullStack.
+                Lo que estyo buscando es mi primer empleo como progrmador, para poder demostrar todos mis conocimientos adquiridos y podes a la vez adquirir mas conocimientos 
+                mediante la practica y aquellos lo cual me pueda nutrir.
+            </p>
+            
+            <div class="fila">
+
+                <div class="col">
+
+                    <h3>Datos Personales</h3>
+                    
+                    <ul>
+
+                        <li><strong>Cumpleaños</strong>02-06-2002</li>
+
+                        <li><strong>Teléfono</strong>1156663919</li>
+
+                        <li><strong>Email</strong>francosec2002@hotmail.com</li>
+
+                        <li><strong>Website</strong>https://github.com/</li>
+
+                        <li><strong>Dirección</strong>Martin Capelo, Buenos Aires, Banfield</li>
+                        
+                    </ul>
+                    
+                </div>
+
+                <div class="col">
+
+                    <h3>Intereses</h3>
+
+                    <div class="contenedor-intereses">
+
+                        <div class="interes">
+
+                            <i class="fa-solid fa-gamepad"></i><span>JUEGOS</span>
+                            
+                        </div>
+                        
+                        <div class="interes">
+                            
+                            <i class="fa-solid fa-headphones"></i><span>MUSICA</span>
+
+                        </div>
+
+                        <div class="interes">
+                            
+                            <i class="fa-solid fa-plane"></i><span>VIAJAR</span>
+
+                        </div> 
+                        
+                        <div class="interes">
+                            
+                            <i class="fa-solid fa-car"></i><span>AUTOS</span>
+
+                        </div>
+
+                        <div class="interes">
+                            
+                            <i class="fa-regular fa-futbol"></i><span>FOOTBALL</span>
+
+                        </div>
+
+                        <div class="interes">
+
+                            <i class="fa-sharp fa-solid fa-paintbrush"></i><span>PINTAR</span>
+
+                        </div>
+
+                        <div class="interes">
+                            
+                            <i class="fa-solid fa-dumbbell"></i><span>GYM</span>
+                        
+                        </div>
+
+                        <div class="interes">
+
+                            <i class="fa-solid fa-mobile"></i><span>MOBILE</span>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <button>
+
+                Descargar CV <i class="fa-solid fa-download"></i><span class="overlay"></span>
+
+            </button>
+            
+        </div>
+        
+    </section>
+                    
+    <section class="skills" id="skills">
+
+        <div class="contenido-seccion">
+
+            <h2>Skills</h2>
+            
+            <div class="fila">
+            
+                <div class="col">
+
+                    <h3>Technical Skills</h3>
+
+                    <div class="skill">
+
+                        <span>HTML & CSS</span>
+
+                        <div class="barra-skill">
+
+                            <div class="progreso">
+
+                                <span>90%</span>
+                            
+                            </div>
+                        </div>
+                    </div>
+                        
+                <div class="skill">
+
+                    <span>Photoshop</span>
+
+                    <div class="barra-skill"> 
+
+                        <div class="progreso">
+
+                            <span>20%</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="skill">
+
+                    <span>JavaScript</span>
+
+                    <div class="barra-skill">
+
+                        <div class="progreso">
+
+                            <span>40%</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+
+                    <span>Apis</span>
+
+                    <div class="barra-skill">
+
+                        <div class="progreso">
+
+                            <span>40%</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+
+                    <span>REACT</span>
+
+                    <div class="barra-skill">
+
+                        <div class="progreso">
+
+                            <span>40%</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col">
+
+                <h3>Professional Skills</h3>
+
+                <div class="skill">
+
+                    <span>Comunicación</span>
+
+                    <div class="barra-skill">
+
+                        <div class="progreso">
+
+                            <span>90%</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                        
+                <div class="skill">
+
+                    <span>Trabajo en Equipo</span>
+
+                    <div class="barra-skill">
+
+                        <div class="progreso">
+
+                            <span>100%</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="skill">
+
+                    <span>Creatividad</span>
+
+                    <div class="barra-skill">
+
+                        <div class="progreso">
+
+                            <span>50%</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+
+                    <span>Dedicación</span>
+
+                    <div class="barra-skill">
+
+                        <div class="progreso">
+
+                            <span>100%</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+
+                    <span>Proyect Management</span>
+
+                    <div class="barra-skill">
+
+                        <div class="progreso">
+
+                            <span>40%</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+            
+    <section id="curriculum" class="curriculum">
+
+        <div class="contenido-seccion">
+
+            <h2>Curriculum</h2>
+            
+            <div class="fila">
+
+                <div class="col izquierda">
+
+                    <h3>Educación</h3>
+                    
+                    <div class="item izq">
+
+                        <h4>Diseño y desarrollo web</h4>
+
+                        <span class="casa">Escuela Da Vinci</span>    
+                        
+                        <span class="fecha">10-03-2022 - 20-12-2022</span>
+
+                        <p>El Curso de dessarrollo web consistia, sin conocimiento previos de programación poder realizar una pagina web y un proyecto final
+                            Usando cada clase como forma de adquirir conocicimientos, talleres en el mismo complejo donde podias avanzar tanto la pagina web,
+                            como el proyecto final que era a elección. Los lenguajes que se llevaron a cabo durante la cursada fueron, Html - Css - Wordpress - Boostrap5.
+                        </p>
+
+                        <div class="conectori">
+
+                            <div class="circuloi"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col izquierda">
+                    
+                    <div class="item Izq">
+
+                        <h4>Programador Web FullStack</h4>
+
+                        <span class="casa">Digital House</span>    
+                        
+                        <span class="fecha">10-05-2022 - 20-12-2022</span>
+
+                        <p>El Curso de dessarrollo web consistia, sin conocimiento previos de programación un proyecto final grupal.
+                            Usando cada clase como forma de adquirir conocicimientos. El mismo curso requeria horas extracurriculares para investigar y practicar desde el aula virtual.
+                           Los lenguajes que se llevaron a cabo durante la cursada fueron, Html - Css - JavaScript - React.js - Node.js - Apis.
+                        </p>
+
+                        <div class="conectori">
+
+                            <div class="circuloi"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+                <div class="col derecha">
+
+                    <h3>Experiencia de trabajo</h3>
+                    
+                    <div class="item der">
+
+                        <h4>Camarero</h4>
+
+                        <span class="casa">I Fresh Central Market</span>    
+                        
+                        <span class="fecha">15-11-2021 - 14-02-2022</span>
+
+                        <p> El trabajo consistia en el recibimiento de los clientes, la toma de los pedidos y la entrega de los mismos.
+                            Verificar que la orden del pedido este bien; 
+                            Armado del salon para el Desayuno, Almuerzo, Merienda y Cena.
+                            Fajinado y secado de la vajilla.
+                        </p>
+
+                        <div class="conectori">
+
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="portfolio" id="portfolio">
+
+        <div class="contenido-seccion">
+
+            <h2>PORTFOLIO</h2>
+            
+            <div class="galeria">
+
+                <div class="proyecto">
+
+                    <img src="./images/videojuegos.png" alt="">
+                   
+                   <div class="overlay">
+
+                        <h3>Diseño Creativo</h3>
+
+                        <p>E-commerce de Videojuegos</p>
+
+                    </div>
+
+                </div>
+                    
+                <div class="proyecto">
+
+                    <img src="./images/pokedex.png" alt="">
+
+                    
+                    <div class="overlay">
+ 
+                         <h3>Diseño React</h3>
+ 
+                         <p>Pokedex</p>
+                         
+                     </div>
+ 
+                 </div>
+
+                 <div class="proyecto">
+
+                    <img src="./images/articulo.png" alt="">
+                    
+                    <div class="overlay">
+ 
+                         <h3>Diseño Web</h3>
+ 
+                         <p>Articulo</p>
+
+                     </div>
+ 
+                 </div>
+
+                 <div class="proyecto">
+
+                    <img src="./images/calculadora.png" alt="">
+                    
+                    <div class="overlay">
+ 
+                         <h3>Diseño Creativo</h3>
+ 
+                         <p>Calculadora</p>
+
+                     </div>
+ 
+                 </div>
+
+                 <div class="proyecto">
+
+                    <img src="./images/chat.png" alt="">
+                    
+                    <div class="overlay">
+ 
+                         <h3>Diseño Creativo</h3>
+ 
+                         <p>Chat celular</p>
+                         
+                     </div>
+ 
+                 </div>
+
+                 <div class="proyecto">
+
+                    <img src="./images/analitic.png" alt="">
+                    
+                    <div class="overlay">
+ 
+                         <h3>Diseño Creativo</h3>
+ 
+                         <p>Información Analitic</p>
+                         
+                     </div>
+ 
+                 </div>
+                
+            </div>
+            
+        </div>
+        
+    </section>            
+            
+    <section class="contacto" id="contacto">
+
+        <div class="contenido-seccion">
+
+            <h2>CONTACTO</h2>
+            
+            <div class="fila">
+
+                <div class="col">
+
+                    <input type="text" placeholder="Tú Nombre">
+
+                    <input type="text" placeholder="Numero de telefono">
+
+                    <input type="text" placeholder="Dirección de correo">
+                    
+                    <input type="text" placeholder="Tema">
+
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    
+                    <a href="mailto:francosec2002@hotmail.com"><button>Enviar Mensaje<i class="fa-solid fa-paper-plane"></i></a>
+                    
+                        <span class="overlay"></span>
+
+                    </button>
+                    
+                </div>
+
+                <div class="col">
+
+                    <img src="./images/ubicacion.png" alt="">
+                    
+                    <div class="info">
+
+                        <ul>
+
+                            <li><i class="fa-solid fa-location-dot"></i>Martin Capello 560, Banfield</li>
+
+                            <li><i class="fa-solid fa-mobile"></i>Llamame: 115666319</li>
+
+                            <li><i class="fa-solid fa-envelope"></i>Email:francosec2002@hotmail.com</li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <a href="#inicio" class="arriba"><i class="fa-solid fa-angles-up"></i></a>
+
+        <div class="redes">
+
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+
+            <a href="#"><i class="fa-solid fa-mobile"></i></a>
+
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+
+        </div>
+
+    </footer>
+
+    <script src="./scripts/index.js"></script>
+    
+</body>
+</html>
